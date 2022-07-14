@@ -2,6 +2,7 @@ from turtle import Turtle
 
 MOVE_DISTANCE = 10
 
+
 class Player(Turtle):
 
     def __init__(self):
