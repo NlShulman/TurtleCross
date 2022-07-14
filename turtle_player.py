@@ -14,7 +14,7 @@ class Player(Turtle):
         self.reset_position()
 
     def move(self):
-        self.forward(MOVE_DISTANCE )
+        self.forward(MOVE_DISTANCE)
 
     def reset_position(self):
         self.goto(0, self.y)
